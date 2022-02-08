@@ -1,0 +1,12 @@
+syntax = "proto3";
+package malware656.caliber.caliber;
+
+import "gogoproto/gogo.proto";
+
+option go_package = "github.com/malware656/caliber/x/caliber/types";
+
+// Params defines the parameters for the module.
+message Params {
+  option (gogoproto.goproto_stringer) = false;
+  
+}
